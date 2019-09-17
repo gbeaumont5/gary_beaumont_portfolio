@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.nav {
+  margin: 10px;
+  color:white;
+}
+
+header{
+  background-color: #428bca;
+  padding: 15px;
+}
+
+.projectImage {
+  width: 50%;
+  height: 50%;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.iconImage{
+  height: 75px;
+  width: 75px;
+  margin-right: 25px;
+}
+
+.links {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.link{
+  margin: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: #428bca;
+  border-radius: 5px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+  transform: rotate(20deg)
+}
+
+
+body{
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.about{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2.5%;
+}
