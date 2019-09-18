@@ -18,22 +18,22 @@ class Contact extends Component {
         <div>
         <a className='icon' href='tel:860-302-8307'>
         <img className='iconImage' src={require('../images/phone.png')}/>
-        <p>860.302.8307</p></a>
+        <p className='contactInfo'>860.302.8307</p></a>
         </div>
         <div>
         <a className='icon' href='mailto:garyallenbeaumont@gmail.com'>
         <img className='iconImage' src={require('../images/email_icon.png')}/>
-        <p>garyallenbeaumont@gmail.com</p></a>
+        <p className='contactInfo'>garyallenbeaumont@gmail.com</p></a>
         </div>
         <div>
         <a className='icon' href='https://www.linkedin.com/in/gary-beaumont-a47a98b3/'>
         <img className='iconImage' src={require('../images/linkedin2.png')}/>
-        <p>gbeaumont5</p></a>
+        <p className='contactInfo'>gbeaumont5</p></a>
         </div>
         <div>
         <a className='icon' href='https://github.com/gbeaumont5'>
         <img className='iconImage' src={require('../images/github1.png')}/>
-        <p>gbeaumont5</p></a>
+        <p className='contactInfo'>gbeaumont5</p></a>
         </div>
     </div>
     )
