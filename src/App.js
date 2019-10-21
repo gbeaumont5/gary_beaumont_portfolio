@@ -17,11 +17,11 @@ class Home extends Component {
     return(
       <Router>
         <header>
-        <nav>
+        <nav className="mainNav">
           <Link className='nav' to='/'>Home</Link>
           <Link className='nav' to='/portfolio'>Portfolio</Link>
           <Link  className='nav' to='/contact'>Contact</Link>
-          <a  className='nav' href='https://drive.google.com/file/d/1-8m81it2SxmwD3jTqQi2WwC8bE66lAH6/view?usp=sharing'target="_blank">Resume</a>
+          <a  className='nav' href='https://drive.google.com/file/d/18u1GHknGtjASXc75CzD6OGCm7TNx6ZYu/view?usp=sharing'target="_blank">Resume</a>
         </nav>
         </header>
         <body>

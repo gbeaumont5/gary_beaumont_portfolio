@@ -15,7 +15,7 @@ class Portfolio extends Component {
   render () {
     return(
     <div className='App'>
-        <h1>My Portfolio</h1>
+        <h1 className="name">My Portfolio</h1>
         <div className='project'>
             <h3>Food and Recipe Search App</h3>
             <img className='projectImage' src={require('../images/food_app.png')}></img>
@@ -23,8 +23,8 @@ class Portfolio extends Component {
             <p><b>Technologies Used:</b></p><p> HTML, CSS, Javascript, jQuery, AJAX</p>
             </div>
             <div className='links'>
-            <a className='link' href='https://gbeaumont5.github.io/'>Check it out!</a>
-            <a className='link' href='https://github.com/gbeaumont5/gbeaumont5.github.io'>View the code!</a>
+            <a className='link' href='https://gbeaumont5.github.io/'target="_blank">Check it out!</a>
+            <a className='link' href='https://github.com/gbeaumont5/gbeaumont5.github.io'target="_blank">View the code!</a>
             </div>
         </div>
         <div className='project'>
@@ -34,8 +34,8 @@ class Portfolio extends Component {
             <p><b>Technologies Used:</b></p><p> HTML, CSS, Javascript, Bootstrap, Express, EJS, MongoDB, Mongoose</p>
             </div>
             <div className='links'>
-            <a className='link' href='https://intense-beach-33221.herokuapp.com/rivers/'>Check it out!</a>
-            <a className='link' href='https://github.com/gbeaumont5/FlyFishing-WebApp'>View the code!</a>
+            <a className='link' href='https://intense-beach-33221.herokuapp.com/rivers/'target="_blank">Check it out!</a>
+            <a className='link' href='https://github.com/gbeaumont5/FlyFishing-WebApp'target="_blank">View the code!</a>
             </div>
         </div>
         <div className='project'>
@@ -45,8 +45,8 @@ class Portfolio extends Component {
             <p><b>Technologies Used:</b></p><p> HTML, CSS, Materialize, Javascript, Express, React, MongoDB, Mongoose, Node.js</p>
             </div>
             <div className='links'>
-            <a className='link' href='http://good_tomatoes.surge.sh/'>Check it out!</a>
-            <a className='link' href='https://github.com/gbeaumont5/front_end_good_tomatoes'>View the code!</a>
+            <a className='link' href='http://good_tomatoes.surge.sh/'target="_blank">Check it out!</a>
+            <a className='link' href='https://github.com/gbeaumont5/front_end_good_tomatoes'target="_blank">View the code!</a>
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@ class About extends Component {
   render () {
     return(
     <div className='App'>
-        <h1>Gary A. Beaumont</h1>
+        <h1 className="name">Gary A. Beaumont</h1>
         <h2>Software Engineer</h2>
         <img className='profile' src={require('../images/profile_pic.jpeg')}></img>
         <h2>About</h2>
