@@ -14,7 +14,7 @@ class Contact extends Component {
 
   render () {
     return(
-    <div className="App">
+    <div className="fullContactPage">
       <h1 className="name">Contact Me!</h1>
       <div className='ContactPage'>
           <div className="contactItems">
@@ -39,7 +39,10 @@ class Contact extends Component {
                 <p className='contactInfo'>gbeaumont5</p></a>
             </div>
           </div>
-        <MyForm/>
+          <div className="theForm">
+            <MyForm/>
+          </div>
+       
       </div>
     </div>
     )

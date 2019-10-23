@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap'
+import { Jumbotron, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap'
 import '../App.css'
 
 export default class MyForm extends React.Component {
@@ -15,13 +15,15 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
         <div>
+            <Jumbotron>
+                {/* <h2 className="formTitle">Send a Message!</h2> */}
                 <Form className='form'
                 onSubmit={this.submitForm}
                 action="https://formspree.io/xarnjkbm"
                 method="POST"
                 >
                     <FormGroup>
-                        <Label for="name">Name</Label>
+                        <Label classname="formSubheading"for="name">Name</Label>
                         <Input type="text" name="name" id="name" value={this.state.name} onChange={this.handleNameChange} placeholder="Enter name here" required></Input>
                     </FormGroup>
                     <FormGroup>
@@ -35,10 +37,12 @@ export default class MyForm extends React.Component {
                     <FormGroup>
                         <Label for="text">Message</Label>
                         <Input type="textarea" id="text" name="message" value={this.state.message} onChange={this.handleMessageChange}placeholder="Enter message here" required></Input>
-                        {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
+                        {status === "SUCCESS" ? <p>Thanks!</p> : 
+                        <div className="formButton"><Button>Submit</Button></div>}
                         {status === "ERROR" && <p>Ooops! There was an error.</p>}
                     </FormGroup>
                 </Form>
+                </Jumbotron>
                 </div>
     );
   }
